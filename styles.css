@@ -1,0 +1,175 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins';
+}
+
+
+header, .exp-world{
+    background-color:#E9ECEF;
+}
+
+.blue{
+    color: #0029FF;
+    font-weight: 500;
+}
+
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 0 1rem 0 1rem;
+    box-shadow: 0px 1px 1px 1px rgb(193, 193, 193);
+}
+
+i{
+    color: white;
+    display: inline;
+    margin: 0.5rem;
+}
+
+.icons{
+    padding: 0.4rem;
+    border-radius: 100%;
+    background-color: #0029FF;
+    
+}
+
+li {
+    list-style: none;
+    display: inline;
+}
+
+
+
+main{
+    padding: 1rem;
+}
+
+.management-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.sub-btn{
+    padding: 0.3rem 0.5rem;
+    border-radius:10px;
+    background-color: #0029FF;
+    color: white;
+    border: none;
+    
+}
+
+.exp-world{
+    padding: 2rem;
+}
+
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+    padding: 2rem 1rem;
+}
+
+.items{
+    padding-bottom: 10px;
+    box-shadow: 2px 2px 2px 2px grey;
+    border-radius: 10px;
+}
+
+.items > h2{
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 10px 10px 0  0;
+}
+
+.items>p{
+    padding: 1rem ;
+}
+
+#select-thread{
+    width: 100%;
+    text-align: center;
+    /* box-shadow: 1px -1px 2px 1px rgb(190, 190, 190); */
+    padding: 0.5rem 1rem;
+    font-size: medium;
+    background-color: #E9ECEF;
+    border: none;
+}
+
+.thread-items{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 2rem 0.5rem;
+    gap: 5px;
+}
+
+
+.label{
+    display: block;
+    text-align: center;
+    background-color: #E9ECEF;
+    border-radius: 10px 10px 0 0;
+    padding: 0.2rem 5rem;
+}
+
+
+.thread-item > textarea{
+    border-radius: 0 0 10px 10px;
+    padding: 10% 0;
+    width: 100%;
+}
+
+
+textarea, .slct, select{
+    border: none;
+    box-shadow: 1px 1px 2px 1px #c5c5c5;
+}
+
+.slct, select{
+    padding: 0.5rem;
+    font-size: medium;
+    border-radius: 5px;
+}
+
+
+.thread-item>i{
+    color: black;
+}
+
+#thread-3{
+    grid-column: 1/span 2;
+    align-content: space-evenly;
+}
+
+#pointers{
+    padding: 2rem;
+}
+
+#pointers> input, #pointers>label{
+
+    display: block;
+}
+
+.txt{
+    width: 100%;
+}
+
+#sa{
+    padding: 1rem;
+}
+
+#sa>select, #sa>a{
+    display: block;
+}
+
+#sa>select{
+    margin-bottom: 1rem;
+}
